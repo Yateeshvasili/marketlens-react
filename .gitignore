@@ -1,0 +1,19 @@
+# Dependencies — regenerated with `npm install`
+node_modules/
+
+# Build output — regenerated with `npm run build`
+dist/
+
+# Secrets — never commit your API key
+.env
+.env.*
+!.env.example
+
+# Logs & OS cruft
+*.log
+npm-debug.log*
+.DS_Store
+
+# Editor
+.vscode/*
+!.vscode/settings.json

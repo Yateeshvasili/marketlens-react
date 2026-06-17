@@ -1,0 +1,27 @@
+{
+  "name": "marketlens-react",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "serve": "node server.js"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "latest",
+    "chart.js": "^4.4.1",
+    "express": "^4.19.2",
+    "leaflet": "^1.9.4",
+    "leaflet.heat": "^0.2.0",
+    "leaflet.markercluster": "^1.5.3",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.26.2"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.2",
+    "vite": "^5.4.8"
+  }
+}
